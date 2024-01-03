@@ -2,7 +2,7 @@
   "name": "helenaljungberg",
   "private": true,
   "version": "0.0.0",
-  "homepage" : "https://github.com/CeciliaL1/helenaljungberg",
+  "homepage": "https://github.com/CeciliaL1/helenaljungberg",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -15,5 +15,8 @@
     "gh-pages": "^6.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "sass": "^1.69.7"
   }
 }
