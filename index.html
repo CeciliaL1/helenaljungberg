@@ -3,12 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/helenaljungberg/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;700&family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/5bfa57c688.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-    <script type="module" crossorigin src="/helenaljungberg/assets/index-DfoGFKF4.js"></script>
+    <title>Helenaljungberg Art</title>
+    <script type="module" crossorigin src="/helenaljungberg/assets/index-NX478lLI.js"></script>
     <link rel="stylesheet" crossorigin href="/helenaljungberg/assets/index-s-MxoWxy.css">
   </head>
+
   <body>
-    <div id="app"></div>
+    <header class="nav-buttons" id="navButtons">
+      <button class="round-nav-button hidden" id="backButton"><p>Tillbaka</p></button>
+      <button class="round-nav-button"><p>Galleri</p></button>
+      <button class="round-nav-button"><p>Process</p></button>
+      <button class="round-nav-button"><p>Kontakt</p></button>
+    </header>
+
+    <section class="start-section" id="startSection">
+      <ul>
+        <li class="heading">Helena Ljungberg Art</li>
+        <li>Handgjorda abstratka tavlor</li>
+        <li>Inspirerad av naturen</li>
+    </section>
+
+    <main>
+  
+
+    <section class="gallery-section hidden" id="gallerySection">
+      <h2>Galleri</h2>
+
+      <div class="flex-gallery-section" id="flexGallerySection">
+
+      </div>
+      
+    </section>
+
+    <section class="process-section hidden" id="processSection">
+      <div>
+      <h2>Process och inspiration</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt repellendus esse harum odit quisquam natus aperiam deserunt neque expedita perferendis optio doloribus nam, reiciendis tenetur cupiditate deleniti! Possimus, quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt repellendus esse harum odit quisquam natus aperiam deserunt neque expedita perferendis optio doloribus nam, reiciendis tenetur cupiditate deleniti! Possimus, quae.</p>
+      </div>
+    
+      <div class="flex-process-section" id="flexProcessSection">
+        
+      </div>
+    
+    </section>
+    
+      <section class="contact-section hidden" id="contactSection">
+        <div class="contact-info">
+          <div>
+          <h4>Kontakt</h4>
+        
+         <ul>
+          <li>Helena Ljungberg</li>
+          <li>Telefon: <a href="tel:00000000">00000000</a></li>
+          <li>Email: <a href="mailto:XXXX@XXX.XXX">XXXXX@XXX.XXX</a></li>
+         </ul>
+        </div>
+
+         <a class="social-media-icon" href="https://www.instagram.com/helenaljungberg.art/" target="_blank"><i class="fa-brands fa-instagram"></i></a></p>
+        </div>
+
+        <div class="form-message ">
+          <h1>Formuläret är under uppbyggnad</h1>
+          <input type="text" id="name" placeholder="Ditt namn">
+          <input type="email" id="email" placeholder="Din email">
+          <textarea id="message" name="Message" rows="6" maxlength="3000" placeholder="Skriv ett meddelande..." required></textarea>
+          <button id="formButton">Skicka</button>
+          <p class="errorMessage" id="errorMessage"></p>
+        </div>
+      </section>
+
+    </main>
+
   </body>
 </html>
