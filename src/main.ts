@@ -168,6 +168,7 @@ function backToStartPage(){
     gallerySection?.classList.add('hidden');
     processSection?.classList.add('hidden');
     backButton?.classList.add('hidden');
+    contactSection?.classList.add('hidden')
 }
 /**
  * Eventlisteners
