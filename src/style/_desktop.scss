@@ -1,0 +1,19 @@
+section {
+    height: auto;
+
+    .about-me {
+        width: 60%;
+    }
+
+}
+
+.process-section {
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .flex-process-section {
+        padding-left: 200px;
+        padding-top: 50px;
+    }
+}

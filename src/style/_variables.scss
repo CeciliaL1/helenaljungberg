@@ -1,0 +1,15 @@
+$nature-brown: #582f0e;
+$nature-light-brown: #7f4f24;
+$nature-beige: #b0b0aa;
+$nature-light-beige: #e9ebdf;
+$nature-light-green: #a4ac86;
+$nature-green: #656d4a;
+$nature-dark-green: #252B2B;
+
+@mixin debugging {
+    outline: 1px solid red;
+}
+
+@mixin box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

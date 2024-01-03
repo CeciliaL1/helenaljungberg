@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-buttons {
+    background-color: $nature-light-beige;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    button {
+
+        background-color: transparent;
+        border: none;
+        width: 80px;
+        height: 40px;
+        margin-top: 10px;
+        font-family: 'josefin slab';
+        opacity: 90%;
+        cursor: pointer;
+
+    }
+
+    p {
+        font-size: 1rem;
+
+        &:hover {
+            text-shadow: 1px 1px 2px black;
+            text-decoration: underline;
+        }
+    }
+}
+
+.start-section {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255) 0%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.3) 40%), url('src/images/staff-flower.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    ul {
+        position: relative;
+        top: 200px;
+        padding: 0;
+        opacity: 90%;
+
+        .heading {
+
+            font-family: 'style script';
+            letter-spacing: 3px;
+            font-size: 2.5rem;
+        }
+
+        li {
+            display: block;
+            text-decoration: none;
+            font-family: 'Josefin slab';
+            font-weight: 700;
+            text-align: center;
+            padding: 15px;
+
+            a {
+                text-decoration: none;
+                color: $nature-dark-green;
+            }
+        }
+    }
+}
+
+.gallery-section {
+    padding: 50px;
+
+
+    h2 {
+        font-family: 'style script';
+        text-align: center;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    .flex-gallery-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        img {
+            height: 150px;
+            width: 150px;
+            @include box-shadow;
+        }
+    }
+}
+
+.process-section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+
+    h2 {
+        font-family: 'style script';
+        text-align: center;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        text-align: center;
+        padding-right: 15px;
+        padding-bottom: 30px;
+
+    }
+
+    .flex-process-section {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 35px;
+
+
+
+        img {
+            @include box-shadow;
+            width: 150px;
+            height: 150px;
+        }
+
+        .fade {
+
+            animation-name: fade;
+            animation-duration: 2s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .5
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+    }
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    font-family: 'josefin slab';
+    padding-bottom: 100px;
+
+
+    .contact-info {
+        display: flex;
+        padding-bottom: 100px;
+
+        h4 {
+            font-size: 2rem;
+            padding-bottom: 10px;
+
+        }
+
+        ul {
+            padding: 0;
+
+
+            li {
+                list-style: none;
+                line-height: 25px;
+
+                a {
+                    color: black;
+                    text-decoration: none;
+
+                    &:hover {
+
+                        &:hover {
+                            text-shadow: 1px 1px 2px black;
+                            text-decoration: underline;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .social-media-icon {
+            font-size: 3.5rem;
+            padding-left: 60px;
+            padding-top: 30px;
+            color: black;
+
+            &:hover {
+                text-shadow: 1px 1px 2px black;
+
+            }
+        }
+    }
+
+    .form-message {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            height: 40px;
+            margin-bottom: 15px;
+            font-family: 'josefin slab';
+            border: none;
+            background-color: $nature-light-beige;
+
+            &:hover {
+                background-color: #bdc0b0;
+            }
+
+            &:focus {
+                outline: #bdc0b0;
+            }
+        }
+
+        textarea {
+            font-family: 'josefin slab';
+            background-color: $nature-light-beige;
+            border: none;
+            padding: 5px;
+            margin-bottom: 15px;
+
+
+            &:hover {
+                background-color: #bdc0b0;
+            }
+
+            &:focus {
+                outline: #bdc0b0;
+            }
+        }
+
+        button {
+            border: none;
+            background-color: $nature-light-beige;
+            cursor: pointer;
+            font-family: 'josefin slab';
+            height: 40px;
+
+            &:hover {
+                background-color: #bdc0b0;
+            }
+        }
+
+        .error-message {
+            font-family: 'josefin slab';
+        }
+    }
+}
+
+
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
