@@ -1,4 +1,4 @@
-import './style.css'import './style/style.css'
+import './style/style.css'
 import { galleryArray } from './galleryArray.ts';
 import { processArray } from './processArray.ts';
 
