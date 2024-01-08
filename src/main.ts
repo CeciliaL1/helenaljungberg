@@ -19,7 +19,7 @@ const processSection: HTMLElement | null = document.querySelector('#processSecti
 const contactSection: HTMLElement | null = document.querySelector('#contactSection');
 const backButton: HTMLButtonElement | null = document.querySelector('#backButton');
 
-/* FORM */
+/* Form */
 
 const formName: HTMLInputElement | null = document.querySelector('#name');
 const formMail: HTMLInputElement | null = document.querySelector('#email');

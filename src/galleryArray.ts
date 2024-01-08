@@ -1,6 +1,6 @@
 export const galleryArray = [
     {
-        src: 'src/images/disaplay-beige-2.jpg',
+        src: 'images/disaplay-beige-2.jpg',
         alt: 'abstract beige painting'
     },
     {
