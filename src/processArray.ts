@@ -1,26 +1,26 @@
 export const processArray = [
 {
-    src: 'src/images/process-gold2.jpg',
+    src: 'images/process-gold2.jpg',
     alt: '',
 },
 {
-    src: 'src/images/process-spray.jpg',
+    src: 'images/process-spray.jpg',
     alt: '',
 },
 {
-    src: 'src/images/process-beige.jpg',
+    src: 'images/process-beige.jpg',
     alt: '',
 },
 {
-    src: 'src/images/process-dots.jpg',
+    src: 'images/process-dots.jpg',
     alt: '',
 },
 {
-    src: 'src/images/process-gold.jpg',
+    src: 'images/process-gold.jpg',
     alt: '',
 },
 {
-    src: 'src/images/process-red.jpg',
+    src: 'images/process-red.jpg',
     alt: '',
 }
 ]
