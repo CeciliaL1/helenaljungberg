@@ -1,4 +1,4 @@
-# Helena Ljungberg Gallry
+# Helena Ljungberg Gallery
 
 <!--
 ## Website Screenshots
