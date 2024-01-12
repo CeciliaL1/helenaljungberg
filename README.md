@@ -1,6 +1,6 @@
 # Helena Ljungberg Gallry
 
-
+<!--
 ## Website Screenshots
 
 ### Hompage
@@ -10,7 +10,7 @@
 ### Process
 
 ### Kontakt
-
+-->
 
 ### Change theme
 
@@ -86,7 +86,7 @@ The website is a gallery that displays artwork that Helena Ljungberg creates.
 ## Supported screens
 The Website has been tested on different screens. we have set the breakpoints for tablet screens 768 px. And for desktop screens 1280px.
 
-
+<!--
 ## Desktop
 ### Homepage
 
@@ -106,6 +106,7 @@ The Website has been tested on different screens. we have set the breakpoints fo
 
 
 ### Finishpage
+-->
 
 
 ## Participants
