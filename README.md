@@ -47,7 +47,7 @@ follows common rules for this kind of project.
 
 ## Live Demo
 
-Explore the live demo of the werbsite here: 
+Explore the live demo of the werbsite [Helena Ljungberg Art](https://cecilial1.github.io/helenaljungberg/)
 
 ## Status
 
